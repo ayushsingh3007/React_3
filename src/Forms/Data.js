@@ -18,7 +18,7 @@ class Data extends Component{
                 const {id,name,department,ratting}=currEle;
                 return(
                   <div className="showDataStyle" key={id}>
-                    <p>{name}||{department}||{ratting}</p>
+                    <p>Name:{name}||Department:{department}||Ratting:{ratting}</p>
                     
                   </div>
                 )
