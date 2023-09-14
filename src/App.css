@@ -44,30 +44,32 @@
     background-color: #ff00bf;
   }
   .showDataStyle{
-    gap: 10px;
-    height: 50px;
-    width: 250px;
+    
+    height: 80px;
+  width : 390px;
     border: 1px solid black;
     box-sizing: border-box;
     margin: 5px;
     font-weight: bolder;
     font-family: cursive;
-   background-color:brown;
+   background-color:bisque;
+   padding-top:20px;
+   
+   word-wrap:break-word;
+
   }
   
   #flex{
-    width: 520px;
+    width: 850px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color:rgb(66, 66, 66);
-   color: white;
-   text-align: center;
-   align-content: center;
+    background-color:#00f7ff;
+   
     
     position: absolute;
-    bottom: 10%;
-    left: 30%;
+    top: 20%;
+    left: 25%;
   }
   
   
@@ -80,15 +82,11 @@
     margin:auto;
     
   }
-
-
-  #goback-btn{
-    width: 80px;
-    font-size: bold;
-    background-color: antiquewhite;
-    font-family: sans-serif;
-    border-radius: 10px;
-   position:absolute;
-   top: 10%;
-   left: 45%;
-  }
+#goback-btn{
+  position:absolute;
+  top:10%;
+  right:10%;
+  width:100px;
+  height: 25px;
+  border-radius: 10px;
+}
